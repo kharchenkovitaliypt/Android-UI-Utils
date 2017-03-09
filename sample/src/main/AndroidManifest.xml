@@ -12,14 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="com.kharchenkovitaliypt.android.sample.ImageViewActivity">
+        <activity android:name="com.kharchenkovitaliypt.android.sample.ImageViewActivity"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
 
-        <activity android:name="com.kharchenkovitaliypt.android.sample.CameraTextureViewActivity">
+        <activity android:name="com.kharchenkovitaliypt.android.sample.CameraTextureViewActivity"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
